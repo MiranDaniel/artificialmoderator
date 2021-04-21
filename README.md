@@ -34,4 +34,5 @@ My main modules support:
 
 My experimental modules only support English
 
-
+## How can I add this to my subreddit?
+Add u/ArtificialModerator with post and wiki permissions and message u/miradnanielcz
