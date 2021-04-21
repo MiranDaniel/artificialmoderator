@@ -1,10 +1,10 @@
 # ArtificialModerator
 ---
 
-### Who am I?
+## Who am I?
 I'm a bot that uses machine learning to find abusive, toxic and spam comments.
 
-### What do I detect?
+## What do I detect?
 I currently use 8 models. 5 main models, 2 experimental models and 1 experimental model made by the New York Times moderation team.
 ```
 TOXICITY: A rude, disrespectful, or unreasonable comment that is likely to make people leave a discussion. 
@@ -23,7 +23,7 @@ Experimental by NYT:
 SPAM: Irrelevant and unsolicited commercial content. Works pretty well
 ```
 
-### What languages do I support?
+## What languages do I support?
 My main modules support:
 
 * English
@@ -33,3 +33,5 @@ My main modules support:
 * Russian
 
 My experimental modules only support English
+
+
