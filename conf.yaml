@@ -1,0 +1,31 @@
+    # u/ArtificialModerator config file (YAML)
+
+    # All values are percentage-based on how much is the AI sure about each test
+
+    # This bot is still in development and is not perfect, you might want to set high limits (something like 97)
+    # and then try slowly lowering them to your liking. Setting any value below 90% is not advised. As the bot 
+    # will start removing comments that would not be removed by a human moderator, especially with profanity.
+    # Any value over 100 will disable the test meaning that the bot will ignore the test and never trigger on it.
+
+    ENABLE_BOT: False # Set this to True when you want the bot to start moderating your subreddit.
+
+    TOXICITY: 95 # A rude, disrespectful, or unreasonable comment that is likely to make people leave a discussion. 
+    PROFANITY: 95 # Swear words, curse words, or other obscene or profane language.
+    INSULT: 95 # Insulting, inflammatory, or negative comment towards a person or a group of people.
+    IDENTITY_ATTACK: 95 # Negative or hateful comments targeting someone because of their identity.
+    THREAT: 95 # Describes an intention to inflict pain, injury, or violence against an individual or group.
+
+    experimental: # Experimental attributes have not been tested as thoroughly as production attributes.
+        AllowExperimentalFeatures: True
+
+        FLIRTATION: 100 # Pickup lines, complimenting appearance, subtle sexual innuendos, etc.
+        SEXUALLY_EXPLICIT: 100 # Contains references to sexual acts, body parts, or other lewd content.
+
+        nyt: # These attributes are experimental because they are trained on a single source of comments—New York Times (NYT) data tagged by their moderation team.
+            AllowNYTFeatures: True
+
+            SPAM: 98 # Irrelevant and unsolicited commercial content. Works pretty well
+
+    ACTIONS:
+        REMOVE: 2 # How many tests need to be triggered to make the bot remove the comment
+        REPORT: 1 # How many tests need to be triggered to make the bot report the comment
