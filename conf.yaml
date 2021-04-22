@@ -10,7 +10,7 @@
     ENABLE_BOT: False # Set this to True when you want the bot to start moderating your subreddit.
 
     TOXICITY: 95 # A rude, disrespectful, or unreasonable comment that is likely to make people leave a discussion. 
-    PROFANITY: 95 # Swear words, curse words, or other obscene or profane language.
+    PROFANITY: 98 # Swear words, curse words, or other obscene or profane language.
     INSULT: 95 # Insulting, inflammatory, or negative comment towards a person or a group of people.
     IDENTITY_ATTACK: 95 # Negative or hateful comments targeting someone because of their identity.
     THREAT: 95 # Describes an intention to inflict pain, injury, or violence against an individual or group.
